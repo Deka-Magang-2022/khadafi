@@ -1,7 +1,8 @@
 <script setup lang="ts">
 	import { useStore } from '@/store';
 	import VitailseLogo from '@/assets/logo.png';
-	import Userslogo from '@/assets/users.png';
+	import Userslogo from '@/assets/user.png';
+	import Readme from '@/assets/Readme.md';
 	useHead({
 		title: 'Vitailse | Opinionated vite starter template',
 	});
@@ -12,7 +13,10 @@
 
 <template>
 	<div class="grid place-items-center min-h-[80vh]">
-		<div class="grid max-w-lg text-center place-items-center">
+		<div class="prose">
+			<Readme />
+		</div>
+		<div class="text-amber-400 grid max-w-lg text-center place-items-center bg-cyan-400 rounded-xl py-10 px-5 shadow-2xl shadow-blue-900 dark:shadow-red-900">
 			<img :src="Userslogo" width="300" class="mx-auto" />
 			<h1 class="uppercase font-bold text-xl mt-10">Profiles</h1>
 			<div class="text-sm text-justify">
@@ -69,6 +73,18 @@
 			
 			
 		</div>
+
+		<router-link
+			:to="{ name: 'other-page' }"
+			class="
+				mt-5
+				text-center
+				hover:text-gray-200
+				dark:hover:text-gray-500
+				hover:underline
+			"
+			>{{ t('pages.other.menu') }}</router-link
+		>
 		
 	</div>
 </template>
