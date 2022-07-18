@@ -1,12 +1,12 @@
 <script setup lang="ts">
 	useHead({
-		title: 'Other Pages',
+		title: 'Jurnal Harian',
 	});
 </script>
 
 <template>
 	<div>
-		<p>{{ $t('pages.other.desc') }}</p>
+
 		<router-link
 			:to="{ name: 'home' }"
 			class="
@@ -23,5 +23,5 @@
 <style scoped></style>
 
 <route lang="yaml">
-name: other-page
+name: jurnal-harian
 </route>

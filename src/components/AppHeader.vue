@@ -46,22 +46,10 @@
 			"
 		>
 			<router-link :to="{ name: 'home' }">
-				<div class="font-bold lg:text-xl md:text-lg text-md">Vitailse</div>
+				<div class="font-bold lg:text-xl md:text-lg text-md">Portofolio Khadafi.</div>
 			</router-link>
-			<div class="ml-auto flex items-center h-full">
-				<select
-					id="language"
-					v-model="$i18n.locale"
-					class="py-1 focus:outline-none rounded dark:text-gray-800"
-				>
-					<option
-						v-for="locale in availableLocales"
-						:key="locale"
-						:value="locale"
-					>
-						{{ locale }}
-					</option>
-				</select>
+			<div class="ml-auto flex items-center h-full space-x-3">
+
 				<button
 					class="mx-5 cursor-pointer focus:outline-none"
 					@click="toggleDarkMode"
@@ -69,9 +57,15 @@
 					<icon:bx:bx-moon class="w-6 h-6" v-if="!isDark" />
 					<icon:bx:bxs-moon class="w-6 h-6" v-else />
 				</button>
-				<a href="https://github.com/zynth17/vitailse">
+
+				<a href="https://github.com/khdfierror" target="_blank">
 					<icon-akar-icons:github-fill />
-				</a>
+				</a>			
+				
+				<a href="https://www.instagram.com/khdfiiii_/" target="_blank">
+					<icon-akar-icons:instagram-fill />
+				</a>			
+
 			</div>
 		</nav>
 	</header>
