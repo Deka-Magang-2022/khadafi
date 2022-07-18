@@ -13,7 +13,7 @@ const { t } = useI18n();
 
 <template>
   <div class="grid place-items-center min-h-[80vh]">
-    <div class="prose">
+    <div class="prose max-w-sm">
       <Readme />
     </div>
     <div
