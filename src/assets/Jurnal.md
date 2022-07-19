@@ -1,6 +1,6 @@
 ## Jurnal Harian
 
-| Tanggal | Kegiatan |
-| ----------- | ----------- |
+| Tanggal | Mulai | Selesai | Kegiatan |
+| ----------- | ----------- | ----------- | ----------- | 
 | Header | Title |
 | Paragraph | Text |

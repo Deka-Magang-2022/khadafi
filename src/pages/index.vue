@@ -4,11 +4,13 @@ import VitailseLogo from "@/assets/logo.png";
 import Userslogo from "@/assets/user.png";
 import Readme from "@/assets/Readme.md";
 useHead({
-  title: "Vitailse | Opinionated vite starter template",
+  title: "Portofolio | Aplikasi Deka Magang",
 });
 
 const store = useStore();
 const { t } = useI18n();
+
+
 </script>
 
 <template>
@@ -17,7 +19,7 @@ const { t } = useI18n();
       <Readme />
     </div>
     <div
-      class="text-yellow-400 dark:text-green-400 outline outline-yellow-400 dark:outline dark:outline-green-300 grid max-w-lg text-center place-items-center bg-black dark:bg-gray-600 rounded-xl py-10 px-5 shadow-2xl shadow-yellow-600 dark:shadow-green-500"
+      class="text-yellow-400 dark:text-green-400 outline outline-yellow-400 dark:outline dark:outline-green-300 grid max-w-lg text-center place-items-center bg-black dark:bg-white rounded-xl py-10 px-5 shadow-2xl shadow-yellow-600 dark:shadow-green-500"
     >
       <img
         :src="Userslogo"
@@ -108,38 +110,41 @@ const { t } = useI18n();
       <div class="grid grid-flow grid-cols-3 gap-10">
         <a
           href="/todo-list"
-          class="bg-blue-900 border-double border-4 border-sky-500 rounded-md mt-5 text-center hover:text-gray-500 dark:hover:text-black hover:underline"
+          class="bg-blue-900 border-double border-4 border-sky-500 rounded-md mt-5 text-center hover:text-white dark:hover:text-black hover:underline"
           >Halaman Todo List</a
         >
         <a
           href="/jurnal-harian"
-          class="bg-blue-900 border-double border-4 border-sky-500 rounded-md mt-5 text-center hover:text-gray-500 dark:hover:text-black hover:underline"
+          class="bg-blue-900 border-double border-4 border-sky-500 rounded-md mt-5 text-center hover:text-white dark:hover:text-black hover:underline"
           >Halaman Jurnal Harian</a
         >
         
         <a
           href="/kalkulator"
-          class="bg-blue-900 border-double border-4 border-sky-500 rounded-md mt-5 text-center hover:text-gray-500 dark:hover:text-black hover:underline"
-          >Kalkulator Sederhana</a
+          class="bg-blue-900 border-double border-4 border-sky-500 rounded-md mt-5 text-center hover:text-white dark:hover:text-black hover:underline"
+          >Kalkulator Sederhana  </a
         >
 
         <div class="flex items-center">
-          <a href="color-switcher" class="bg-blue-900 border-double border-4 py-2 px-4 border-sky-500 rounded-md mt-5 text-center hover:text-gray-500 dark:hover:text-black hover:underline">
+          <a href="color-switcher" class="bg-blue-900 border-double border-4 py-2 px-4 border-sky-500 rounded-md mt-5 text-center hover:text-white dark:hover:text-black hover:underline">
             Color Switcher
           </a>
         </div>
         
         <div class="flex items-center">
-          <a href="random-number" class="bg-blue-900 border-double border-4 py-2 px-4 border-sky-500 rounded-md mt-5 text-center hover:text-gray-500 dark:hover:text-black hover:underline">
+          <a href="random-number" class="bg-blue-900 border-double border-4 py-2 px-4 border-sky-500 rounded-md mt-5 text-center hover:text-white dark:hover:text-black hover:underline">
             Random Number
           </a>
         </div>
         
+        
         <div class="flex items-center">
-          <a href="array-dinamis" class="bg-blue-900 border-double border-4 py-2 px-4 border-sky-500 rounded-md mt-5 text-center hover:text-gray-500 dark:hover:text-black hover:underline">
-            Array Dinamis
+          <a href="pyramid" class="bg-blue-900 border-double border-4 py-2 px-4 border-sky-500 rounded-md mt-5 text-center hover:text-white dark:hover:text-black hover:underline">
+            Pyramid Generator
           </a>
         </div>
+        
+        
 
 
       </div>
