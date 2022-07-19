@@ -120,7 +120,7 @@ const { t } = useI18n();
         <a
           href="/kalkulator"
           class="bg-blue-900 border-double border-4 border-sky-500 rounded-md mt-5 text-center hover:text-gray-500 dark:hover:text-black hover:underline"
-          >Kalkulator</a
+          >Kalkulator Sederhana</a
         >
 
         <div class="flex items-center">
@@ -132,6 +132,12 @@ const { t } = useI18n();
         <div class="flex items-center">
           <a href="random-number" class="bg-blue-900 border-double border-4 py-2 px-4 border-sky-500 rounded-md mt-5 text-center hover:text-gray-500 dark:hover:text-black hover:underline">
             Random Number
+          </a>
+        </div>
+        
+        <div class="flex items-center">
+          <a href="array-dinamis" class="bg-blue-900 border-double border-4 py-2 px-4 border-sky-500 rounded-md mt-5 text-center hover:text-gray-500 dark:hover:text-black hover:underline">
+            Array Dinamis
           </a>
         </div>
 

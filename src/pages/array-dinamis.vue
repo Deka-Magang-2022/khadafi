@@ -1,8 +1,13 @@
 <script setup lang="ts">
-import Jurnal from "@/assets/Jurnal.md";
+
 	useHead({
-		title: 'Jurnal Harian',
+		title: 'Array Dinamis',
 	});
+
+    const daftarArray = [1,1,2,2,3,3,3,4,4,4,4,5,5,5,6,6,6];
+    const arrayUnik = [...new Set(daftarArray)];
+
+    console.log(arrayUnik)
 
 
 	
@@ -13,11 +18,10 @@ import Jurnal from "@/assets/Jurnal.md";
 <template>
 	<div>
 
-	<div class="prose border border-black rounded-md p-10">
-		<Jurnal />
-	</div>
 	
-
+<div>
+    {{ arrayUnik }}
+</div>
 
 	
 
@@ -37,5 +41,5 @@ import Jurnal from "@/assets/Jurnal.md";
 <style scoped></style>
 
 <route lang="yaml">
-name: jurnal-harian
+name: array-dinamis
 </route>
