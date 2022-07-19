@@ -6,7 +6,7 @@ useHead({
 import { useStore } from '@/store';
 const store = useStore();
 store.color = 'bg-red-500'
-store.text  = 'text-blue-500'
+store.text  = 'text-white'
 
 </script>
 
@@ -14,7 +14,7 @@ store.text  = 'text-blue-500'
   <div class="grid gap-10">
 		<div class="flex flex-col w-full gap-10">
 			<div :class="store.color" class="w-full p-10 rounded-md">
-				<p :class="store.text" class="text-xl text-white font-semibold">Sebuah Text</p>
+				<p :class="store.text" class="text-xl text-blue-500 font-semibold">Sebuah Text</p>
 			</div>
 			<div class="grid grid-cols-4 gap-5">
 				<button type="button" @click="store.color = 'bg-blue-500'" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">Ganti Bg</button>

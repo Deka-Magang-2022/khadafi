@@ -7,6 +7,9 @@
 <template>
 	<div>
 
+
+	{{ Math.random() }}
+
 		<router-link
 			:to="{ name: 'home' }"
 			class="

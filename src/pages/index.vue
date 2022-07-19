@@ -116,19 +116,26 @@ const { t } = useI18n();
           class="bg-blue-900 border-double border-4 border-sky-500 rounded-md mt-5 text-center hover:text-gray-500 dark:hover:text-black hover:underline"
           >Halaman Jurnal Harian</a
         >
-        <div class="flex items-center">
-          <a
-            href="/kalkulator"
-            class="bg-blue-900 border-double border-4 py-2 px-4 border-sky-500 rounded-md mt-5 text-center hover:text-gray-500 dark:hover:text-black hover:underline"
-            >Kalkulator</a
-          >
-        </div>
+        
+        <a
+          href="/kalkulator"
+          class="bg-blue-900 border-double border-4 border-sky-500 rounded-md mt-5 text-center hover:text-gray-500 dark:hover:text-black hover:underline"
+          >Kalkulator</a
+        >
 
         <div class="flex items-center">
           <a href="color-switcher" class="bg-blue-900 border-double border-4 py-2 px-4 border-sky-500 rounded-md mt-5 text-center hover:text-gray-500 dark:hover:text-black hover:underline">
             Color Switcher
           </a>
         </div>
+        
+        <div class="flex items-center">
+          <a href="random-number" class="bg-blue-900 border-double border-4 py-2 px-4 border-sky-500 rounded-md mt-5 text-center hover:text-gray-500 dark:hover:text-black hover:underline">
+            Random Number
+          </a>
+        </div>
+
+
       </div>
     </div>
   </div>
