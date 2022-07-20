@@ -46,9 +46,17 @@ const { t } = useI18n();
       <div class="grid max-w-lg text-center place-items-center mt-10">
         <h1 class="uppercase font-bold text-xl">Contact</h1>
         <div class="text-sm text-justify">
-          <p>Phone : 08xxxxxxxxxx</p>
+          <p>Phone : 
+          
+          <a href="https://wa.me/+6282352675346" target="_blank" class="text-yellow-400 hover:text-white dark:text-green-400 dark:hover:text-sky-200 font-bold">082352675346</a>
+          
+          </p>
           <p>Email : khadafi1675@gmail.com</p>
-          <p>Instagram : khdfiiii_</p>
+          <p>Instagram : 
+          
+          <a href="https://www.instagram.com/khdfiiii_/" target="_blank" class="text-yellow-400 hover:text-white dark:text-green-400 dark:hover:text-sky-200 font-bold">khdfiiii_</a>
+          
+          </p>
           <a
             href="https://github.com/khdfierror"
             target="_blank"
