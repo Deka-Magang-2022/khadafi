@@ -19,7 +19,7 @@ const { t } = useI18n();
       <Readme />
     </div>
     <div
-      class="text-yellow-400 dark:text-green-400 outline outline-yellow-400 dark:outline dark:outline-green-300 grid max-w-lg text-center place-items-center bg-black dark:bg-white rounded-xl py-10 px-5 shadow-2xl shadow-yellow-600 dark:shadow-green-500"
+      class="text-yellow-400 dark:text-green-400 outline outline-yellow-400 dark:outline dark:outline-green-300 grid max-w-lg text-center place-items-center bg-black dark:bg-purple-500 rounded-xl py-10 px-5 shadow-2xl shadow-yellow-600 dark:shadow-green-500"
     >
       <img
         :src="Userslogo"

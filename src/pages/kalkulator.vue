@@ -1,6 +1,6 @@
 <script setup lang="ts">
 	useHead({
-		title: 'kalkulator',
+		title: 'Kalkulator',
 	});
 
 	import { useStore } from '@/store';

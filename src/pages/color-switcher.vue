@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: "color-switcher",
+  title: "Color Switcher",
 });
 
 import { useStore } from '@/store';
