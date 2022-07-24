@@ -56,7 +56,7 @@ import Sv9 from '@/assets/img/sv9.png';
 				class="row-span-1  flex justify-center leading-tight tracking-wider  font-serif text-lg text-white bg-[#d66674]">
 				<div class=" mx-24 ">
 					<p class=" my-8  text-center  ">
-						We have high-quality goomming gift for everyone.
+						We have high-quality goomming gift for everyone.	
 						you'll find gift sets, giftcards, and more!
 					</p>
 					<div
@@ -80,12 +80,12 @@ import Sv9 from '@/assets/img/sv9.png';
 		</div>
 	</div>
 	
-	<!-- <router-link :to="{ name: 'home' }" class="
+	<router-link :to="{ name: 'home' }" class="
 				mt-5
 				hover:text-gray-200
 				dark:hover:text-gray-500
 				hover:underline
-			">{{ $t('pages.home') }}</router-link> -->
+			">{{ $t('pages.home') }}</router-link>
 </template>
 
 <style scoped></style>
