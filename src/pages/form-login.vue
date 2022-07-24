@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div>
-                    <a href="#" class="text-sm hover:underline hover:text-green-300">Register new account?</a>
+                    <a href="#" class="text-sm hover:underline hover:text-blue-900">Register new account?</a>
                 </div>
             </div>
         </div>
