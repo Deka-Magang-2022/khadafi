@@ -2,7 +2,7 @@
 	useHead({
 		title: 'Form Login',
 	});
-
+    
 
 	
 
@@ -14,8 +14,8 @@
 
         <div class="min-h-screen rounded-md bg-green-300 text-gray-800 antialiased px-4 py-6 flex flex-col justify-center sm:py-12">
             <div class="relative py-3 sm:max-w-xl mx-auto text-center">
-                        <span class="text-2xl font-light">Login to Shave</span>
-                <div class="relative mt-4 bg-white shadow-md sm:rounded-lg text-left">
+                        <span class="text-2xl font-serif">Login to Shave</span>
+                <div class="relative w-auto mt-4 bg-white shadow-md sm:rounded-lg text-left">
                                 <div class="h-2 bg-green-400 rounded-t-md"></div>
                     <div class="py-6 px-8">
                         <label class="block font-semibold">Username or Email</label>
@@ -29,27 +29,27 @@
                     </div>
                 </div>
                 <div>
-                    <a href="#" class="text-sm hover:underline hover:text-blue-900">Register new account?</a>
+                    <span class="text-light">Dont have a account?</span>
+                    <a href="form-register" class="font-bold hover:underline"> Sign up!</a>
                 </div>
             </div>
+
+            
         </div>
         
 
-        
-
+        <footer class="max-w-lg mx-auto flex justify-center text-black">
+				<router-link :to="{ name: 'home' }" class="
+				dark:hover:text-gray-500
+				hover:underline
+			">{{ $t('pages.home') }}</router-link>
+				<span class="mx-3">•</span>
+				<a href="halaman" class="hover:underline">Halaman</a>
+			</footer>
 
 	
 
-		<router-link
-			:to="{ name: 'home' }"
-			class="
-				mt-5
-				hover:text-gray-200
-				dark:hover:text-gray-500
-				hover:underline
-			"
-			>{{ $t('pages.home') }}</router-link
-		>
+		
 	</div>
 </template>
 

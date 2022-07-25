@@ -1,91 +1,121 @@
 <script setup lang="ts">
-	useHead({
-		title: 'halaman',
-	});
-import Sv1 from '@/assets/img/sv2.png';
-import Sv2 from '@/assets/img/sv1.png';
-import Sv3 from '@/assets/img/sv3.png';
-import Sv4 from '@/assets/img/sv4.png';
-import Sv5 from '@/assets/img/sv5.png';
-import Sv6 from '@/assets/img/sv6.png';
-import Sv7 from '@/assets/img/sv7.png';
-import Sv8 from '@/assets/img/sv8.png';
-import Sv9 from '@/assets/img/sv9.png';
-
+useHead({
+  title: "halaman",
+});
+import Icons from "@/components/Gambar.vue";
 </script>
 
 <template>
-	<div>
-		
-		<div class="grid grid-cols-3 grid-rows-3 min-h-screen grid-flow-col ">
-			<div class="col-span-2 row-span-3 bg-[#f2cf77] ">
-				<nav class="items-center text-[#005564] bg-[#f2cf77]  ">
-					<div class=" font-serif font-bold flex items-center h-full">
-						<a href="" class="my-5 mr-72 mx-16 uppercase text-2xl">shave</a>
-						<div>
-							<a class="mx-2 hover:text-white" href=""> How It Wors </a>
-						</div>
-						<div>
-							<a class="mx-2 hover:text-white" href=""> product </a>
-						</div>
-						<div>
-							<a class="mx-2 hover:text-white" href=""> gifts </a>
-						</div>
-						<div>
-							<a class="mx-2 hover:text-white" href=""> Join Today </a>
-						</div>
-					</div>
-				</nav>
-				<div class="bg-[#f2cf77]  min-h-screen ">
-					<div class="m-16">
-						<p
-							class="flex leading-snug tracking-wider text-5xl  font-medium  text-[#005564] font-serif text-left">
-							The ultimate app that help you find
-							the righ high-quality blade for your face</p>
-					</div>
-					<div class=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 ">
-						<a class="hover:bg-[#3aa7aa] py-4 font-semibold  mx-16 uppercase text-xl font-serif text-[#f2cf77] bg-[#005564] px-24"
-							href="">get started</a>
-					</div>
-					<div class="flex justify-end w-auto h-72 px-32">
-						<img :src="Sv1">
-					</div>
-				</div>
-			</div>
-			<div
-				class="row-span-1  flex justify-center leading-tight tracking-wider  font-serif text-lg text-white bg-[#d66674]">
-				<div class=" mx-24 ">
-					<p class=" my-8  text-center  ">
-						We have high-quality goomming gift for everyone.	
-						you'll find gift sets, giftcards, and more!
-					</p>
-					<div
-						class=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#3aa7aa] duration-300  p-2 my-8 mb-20 text-[#003851] bg-[#93dbde] ">
-						<a href="" class=" flex justify-center  uppercase">shop the gift sets</a>
-					</div>
-				</div>
-			</div>
-			<div class="row-span-2 grid grid-cols-3 grid-rows-3  bg-yellow-500 col-span-2">
-
-				<div class=" flex justify-center  bg-red-500 "><img :src="Sv1" width=""></div>
-				<div class=" flex justify-center  bg-blue-500 "><img :src="Sv2" width=""></div>
-				<div class=" flex justify-center  bg-green-500 "><img :src="Sv3" width=""></div>
-				<div class=" flex justify-center  bg-gray-500 "><img :src="Sv4" width=""></div>
-				<div class=" flex justify-center  bg-purple-500 "><img :src="Sv5" width=""></div>
-				<div class=" flex justify-center  bg-amber-500 "><img :src="Sv6" width=""></div>
-				<div class=" flex justify-center  bg-cyan-500 "><img :src="Sv7" width=""></div>
-				<div class=" flex justify-center  bg-blue-500 "><img :src="Sv8" width=""></div>
-				<div class=" flex justify-center  bg-sky-500 "><img :src="Sv9" width=""></div>
-			</div>
-		</div>
-	</div>
-	
-	<router-link :to="{ name: 'home' }" class="
-				mt-5
-				hover:text-gray-200
-				dark:hover:text-gray-500
-				hover:underline
-			">{{ $t('pages.home') }}</router-link>
+  <div class="">
+    <div class="grid grid-cols-1 grid-rows-2 md:grid-rows-1 md:grid-cols-3 grid-flow-row -mx-8 bg-white -mt-8 mb-8 aspect-video">
+      <div
+        class="bg-green-200 col-span-2 h-screen py-3 px-5 md:py-6 md:px-10 lg:py-12 lg:px-20 text-cyan-900 grid grid-rows-5 aspect-square"
+      >
+        <div class="">
+          <div class="flex justify-center md:justify-between w-full">
+            <div
+              class="uppercase hidden md:block md:text-xl lg:text-2xl xl:text-3xl font-semibold cursor-pointer"
+            >
+              Shave
+            </div>
+            <div
+              class="capitalize text-xs sm:text-sm md:text-base lg:text-md xl:text-xl flex w-full justify-center gap-3 md:gap-6 lg:gap-10 items-center"
+            >
+              <span class="cursor-pointer hover:underline">how it works</span>
+              <span class="cursor-pointer hover:underline">products</span>
+              <span class="cursor-pointer hover:underline">gifts</span>
+              <span class="cursor-pointer hover:underline">join today</span>			  
+              <a href="form-login" class="text-green-600 font-bold hover:underline">Login</a>			  
+            </div>
+          </div>
+        </div>
+        <div class="row-span-4 md:row-span-3 flex flex-col justify-center items-center md:items-start text-center md:text-left">
+          <div
+            class="text-1xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl tracking-wider leading-tight mb-8"
+          >
+            The ultimate app that
+            <br />
+            helps you find the right
+            <br />
+            high-quality blade for
+            <br />
+            your face.
+          </div>
+          <div class="flex w-full md:justify-start justify-center">
+            <button
+              type="button"
+              class="uppercase px-16 md:px-20 lg:px-24 xl:px-32 py-4 bg-cyan-900 text-[#f5d273] font-semibold text-base md:text-md lg:text-lg xl:text-xl"
+            >
+              get started
+            </button>
+          </div>
+          <div class="md:hidden mt-auto">
+            <Icons name="razor-1" class="xl:w-64 lg:w-52 md:w-32 w-52 mt-auto" />
+          </div>
+        </div>
+        <div class="relative hidden md:flex">
+          <div class="md:absolute bottom-0 right-0">
+            <Icons name="razor-1" class="xl:w-64 lg:w-52 w-52" />
+          </div>
+        </div>
+      </div>
+      <div class="h-screen grid grid-cols-1 grid-rows-5">
+        <div class="bg-blue-400 row-span-2 flex flex-col items-center justify-center aspect-square">
+          <div class="text-center md:text-md xl:text-xl tracking-wider leading-snug mb-5">
+            We have high-quality
+            <br />
+            grooming gifts for everyone.
+            <br />
+            You'll find gift sets,
+            <br />
+            giftcards, and more!
+          </div>
+          <div>
+            <button
+              type="button"
+              class="py-2 px-10 bg-cyan-200 text-cyan-900 uppercase font-bold"
+            >
+              shop the gift sets
+            </button>
+          </div>
+        </div>
+        <div class="bg-green-500 row-span-3 grid grid-rows-3 grid-cols-3">
+          <div class="bg-rose-200 flex items-center justify-center aspect-square">
+            <Icons name="razor-1" class="w-28" />
+          </div>
+          <div class="bg-teal-200 flex items-center justify-center aspect-square">
+            <Icons name="razor-2" class="w-28" />
+          </div>
+          <div class="bg-pink-300 flex items-center justify-center aspect-square">
+            <Icons name="razor-3" class="w-28" />
+          </div>
+          <div class="bg-green-200 flex items-center justify-center aspect-square">
+            <Icons name="razor-4" class="w-28" />
+          </div>
+          <div class="bg-rose-400 flex items-center justify-center aspect-square">
+            <Icons name="razor-5" class="w-28" />
+          </div>
+          <div class="bg-blue-200 flex items-center justify-center aspect-square">
+            <Icons name="razor-6" class="w-28" />
+          </div>
+          <div class="bg-rose-200 flex items-center justify-center aspect-square">
+            <Icons name="scissor-1" class="w-28" />
+          </div>
+          <div class="bg-teal-200 flex items-center justify-center aspect-square">
+            <Icons name="scissor-2" class="w-28" />
+          </div>
+          <div class="bg-yellow-200 flex items-center justify-center aspect-square">
+            <Icons name="knife-1" class="w-28" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <router-link
+      :to="{ name: 'home' }"
+      class="mt-5 hover:text-gray-200 dark:hover:text-gray-500 hover:underline"
+      >{{ $t("pages.home") }}</router-link
+    >
+  </div>
 </template>
 
 <style scoped></style>
