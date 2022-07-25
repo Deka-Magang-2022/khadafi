@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: "halaman",
+  title: "Halaman",
 });
 import Icons from "@/components/Gambar.vue";
 </script>
@@ -25,7 +25,7 @@ import Icons from "@/components/Gambar.vue";
               <span class="cursor-pointer hover:underline">products</span>
               <span class="cursor-pointer hover:underline">gifts</span>
               <span class="cursor-pointer hover:underline">join today</span>			  
-              <a href="form-login" class="text-green-600 font-bold hover:underline">Login</a>			  
+              <a href="form-login" class="text-2xl text-green-600 font-bold hover:underline">Login</a>			  
             </div>
           </div>
         </div>
@@ -41,10 +41,10 @@ import Icons from "@/components/Gambar.vue";
             <br />
             your face.
           </div>
-          <div class="flex w-full md:justify-start justify-center">
+          <div class="flex w-full md:justify-start justify-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">
             <button
               type="button"
-              class="uppercase px-16 md:px-20 lg:px-24 xl:px-32 py-4 bg-cyan-900 text-[#f5d273] font-semibold text-base md:text-md lg:text-lg xl:text-xl"
+              class="uppercase px-16 md:px-20 lg:px-24 xl:px-32 py-4 bg-green-700 hover:bg-green-400 text-[#f5d273] font-semibold text-base md:text-md lg:text-lg xl:text-xl"
             >
               get started
             </button>
@@ -70,10 +70,10 @@ import Icons from "@/components/Gambar.vue";
             <br />
             giftcards, and more!
           </div>
-          <div>
+          <div class="transition ease-in-out delay-150 w-auto hover:-translate-y-1 hover:scale-110  duration-300">
             <button
               type="button"
-              class="py-2 px-10 bg-cyan-200 text-cyan-900 uppercase font-bold"
+              class="py-2 px-10 bg-cyan-200 hover:bg-cyan-600 text-cyan-900 hover:text-white uppercase font-bold"
             >
               shop the gift sets
             </button>
@@ -89,7 +89,7 @@ import Icons from "@/components/Gambar.vue";
           <div class="bg-pink-300 flex items-center justify-center aspect-square">
             <Icons name="razor-3" class="w-28" />
           </div>
-          <div class="bg-green-200 flex items-center justify-center aspect-square">
+          <div class="bg-green-400 flex items-center justify-center aspect-square">
             <Icons name="razor-4" class="w-28" />
           </div>
           <div class="bg-rose-400 flex items-center justify-center aspect-square">
