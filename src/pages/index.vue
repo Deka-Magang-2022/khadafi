@@ -163,6 +163,12 @@ const { t } = useI18n();
             Styling Form Login
           </a>
         </div>
+
+        <div class="flex items-center">
+          <a href="halaman-netflix" class="bg-blue-900 border-double border-4 py-2 px-4 border-sky-500 rounded-md mt-5 text-center hover:text-white dark:hover:text-black hover:underline">
+            Halaman Netflix
+          </a>
+        </div>
         
         
 

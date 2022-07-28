@@ -16,7 +16,7 @@ import Icons from "@/components/Gambar.vue";
             <div
               class="uppercase hidden md:block md:text-xl lg:text-2xl xl:text-3xl font-semibold cursor-pointer"
             >
-              Shave
+              Shave.
             </div>
             <div
               class="capitalize text-xs sm:text-sm md:text-base lg:text-md xl:text-xl flex w-full justify-center gap-3 md:gap-6 lg:gap-10 items-center"
@@ -25,7 +25,7 @@ import Icons from "@/components/Gambar.vue";
               <span class="cursor-pointer hover:underline">products</span>
               <span class="cursor-pointer hover:underline">gifts</span>
               <span class="cursor-pointer hover:underline">join today</span>			  
-              <a href="form-login" class="text-2xl text-green-600 font-bold hover:underline">Login</a>			  
+              <a href="form-login" class="font-serif text-green-600 font-bold hover:underline">Login</a>			  
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ import Icons from "@/components/Gambar.vue";
           <div class="flex w-full md:justify-start justify-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">
             <button
               type="button"
-              class="uppercase px-16 md:px-20 lg:px-24 xl:px-32 py-4 bg-green-700 hover:bg-green-400 text-[#f5d273] font-semibold text-base md:text-md lg:text-lg xl:text-xl"
+              class="uppercase px-16 md:px-20 lg:px-24 xl:px-32 py-4 bg-green-700 hover:bg-green-400 hover:text-black text-[#f5d273] font-semibold text-base md:text-md lg:text-lg xl:text-xl"
             >
               get started
             </button>

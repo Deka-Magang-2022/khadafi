@@ -12,10 +12,10 @@
 <template>
 	<div>
 
-        <div class="max-h-screen rounded-md bg-green-300 text-gray-800 antialiased px-4 py-6 flex flex-col justify-center sm:py-12">
-            <div class="relative py-3 sm:max-w-xl mx-auto text-center">
-                        <span class="text-2xl font-serif">Welcome to Shave</span>
-                <div class="relative mt-4 bg-white shadow-md sm:rounded-lg text-left">
+        <div class="max-h-screen rounded-md bg-green-300 text-gray-800 antialiased px-4 py-6 flex flex-col items-center justify-center sm:py-12">
+            <div class="py-3 text-center">
+                <span class="text-2xl font-serif">Welcome to Shave</span>
+                <div class="w-96 mt-4 bg-white shadow-md sm:rounded-lg text-left rounded-t-md">
                                 <div class="h-2 bg-green-400 rounded-t-md"></div>
                     <div class="py-6 px-8">
                         <label class="block font-semibold">Username</label>

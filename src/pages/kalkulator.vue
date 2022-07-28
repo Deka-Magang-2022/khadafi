@@ -48,7 +48,7 @@
 
 <template>
 	<div class="min-h-[80vh]">
-		<div class="bg-gray-700 max-w-lg mb-10 border-double border-4 border-sky-500 rounded-md p-5">
+		<div class="bg-gray-400 max-w-lg mb-10 border-double border-4 border-sky-500 rounded-md p-5">
 			<div class="w-full">
 				<div class="flex justify-end px-4 py-2" :class="{'bg-red-500 rounded-md text-white' : store.temp == 'Error'}">
 					{{ store.temp }}

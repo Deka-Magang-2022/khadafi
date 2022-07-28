@@ -10,7 +10,10 @@ declare module '@vue/runtime-core' {
     'Icon:bx:bxMoon': typeof import('~icons/bx/bx-moon')['default']
     'Icon:bx:bxsMoon': typeof import('~icons/bx/bxs-moon')['default']
     'IconAkarIcons:githubFill': typeof import('~icons/akar-icons/github-fill')['default']
+    'IconAkarIcons:globe': typeof import('~icons/akar-icons/globe')['default']
+    'IconAkarIcons:globeFill': typeof import('~icons/akar-icons/globe-fill')['default']
     'IconAkarIcons:instagramFill': typeof import('~icons/akar-icons/instagram-fill')['default']
+    'IconAkarIcons:netflixFill': typeof import('~icons/akar-icons/netflix-fill')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
