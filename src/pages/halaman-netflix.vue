@@ -214,7 +214,7 @@
 			
 			</section>
 
-			<section class="bg-black h-[426px] px-40 pt-[70px] pl-20 text-white">
+			<section class="bg-black h-[426px] px-64 py-10 text-gray-600">
 					<div class="mb-8">
 						<p>Ada pertanyaan? Hubungi <a class="hover:underline" href="#">007-803-321-2130</a></p>
 					</div>
@@ -243,7 +243,7 @@
 							<option value="">Indonesia</option>
 						</select>
 					</div>
-					<div class="mt-5">
+					<div class="mt-5 text-xs">
 						<p>Netflix Indonesia</p>
 					</div>
 				</section>
