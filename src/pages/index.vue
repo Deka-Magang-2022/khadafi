@@ -116,21 +116,25 @@ const { t } = useI18n();
       </div>
 
       <div class="grid grid-flow grid-cols-3 gap-10">
-        <a
-          href="/todo-list"
+
+        
+
+        <router-link 
+          :to="{ name: 'todo-list'}"
           class="bg-blue-900 border-double border-4 border-sky-500 rounded-md mt-5 text-center hover:text-white dark:hover:text-black hover:underline"
-          >Halaman Todo List</a
+          >Halaman Todo List</router-link
         >
-        <a
-          href="/jurnal-harian"
+
+        <router-link
+          :to="{ name: 'jurnal-harian'}"
           class="bg-blue-900 border-double border-4 border-sky-500 rounded-md mt-5 text-center hover:text-white dark:hover:text-black hover:underline"
-          >Halaman Jurnal Harian</a
+          >Halaman Jurnal Harian</router-link
         >
         
-        <a
-          href="/kalkulator"
+        <router-link
+          :to="{ name: 'Kalkulator'}"
           class="bg-blue-900 border-double border-4 border-sky-500 rounded-md mt-5 text-center hover:text-white dark:hover:text-black hover:underline"
-          >Kalkulator Sederhana  </a
+          >Kalkulator Sederhana</router-link
         >
 
         <div class="flex items-center">
