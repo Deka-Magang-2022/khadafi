@@ -129,48 +129,125 @@
 
 			<div class="flex flex-col place-items-start mt-16 gap-2 text-white">
 				
-			<div>
-				
-				<p class="border-2  bg-[#303030] border-[#303030] w-[750px] h-[70px] p-5 font-[arial] text-2xl">Apa itu Netflix?</p>
-				<div class="flex justify-between">
-				<img :src="Img5">
+				<div class="flex justify-between items-center p-5 w-full border-2  bg-[#303030] border-[#303030]">
 					
+					
+					<p class="font-[arial] text-2xl">Apa itu Netflix?</p>
+					
+					<!-- <img class="w-[20px] h-[20px]" :src="Img5"> -->
+					<div>
+						<svg class="w-[35px] h-auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" id="footer-sample-full" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M12 20v-8m0 0V4m0 8h8m-8 0H4"></path></svg>
+					</div>
+						
+					
+				</div>
+
+				<div class="flex justify-between items-center p-5 w-full border-2  bg-[#303030] border-[#303030]">
+					
+					<p class="font-[arial] text-2xl">Berapa biaya berlangganan Netflix?</p>
+
+					<div>
+						<svg class="w-[35px] h-auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" id="footer-sample-full" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M12 20v-8m0 0V4m0 8h8m-8 0H4"></path></svg>
+					</div>
+
+				</div>
+
+				<div class="flex justify-between items-center p-5 w-full border-2  bg-[#303030] border-[#303030]">
+					<p class="font-[arial] text-2xl">Di mana saya bisa menonton?</p>
+					
+					<div>
+						<svg class="w-[35px] h-auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" id="footer-sample-full" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M12 20v-8m0 0V4m0 8h8m-8 0H4"></path></svg>
+					</div>
+
+				</div>
+
+				<div class="flex justify-between items-center p-5 w-full border-2  bg-[#303030] border-[#303030]">
+					
+					<p class="font-[arial] text-2xl">Bagaimana cara membatalkannya?</p>
+					
+					<div>
+						<svg class="w-[35px] h-auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" id="footer-sample-full" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M12 20v-8m0 0V4m0 8h8m-8 0H4"></path></svg>
+					</div>
+
+				</div>
+
+				<div class="flex justify-between items-center p-5 w-full border-2  bg-[#303030] border-[#303030]">
+					<p class="font-[arial] text-2xl">Apa yang bisa ditonton di Netflix?</p>
+
+					<div>
+						<svg class="w-[35px] h-auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" id="footer-sample-full" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M12 20v-8m0 0V4m0 8h8m-8 0H4"></path></svg>
+					</div>
+					
+				</div>
+
+				<div class="flex justify-between items-center w-[750px] p-2 h-[85px] border-2  bg-[#303030] border-[#303030]">
+					
+					<p class="font-[arial] text-2xl">Apakah Netflix sesuai bagi anak-anak?</p>
+
+					<div>
+						<svg class="w-[35px] h-auto mr-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" id="footer-sample-full" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M12 20v-8m0 0V4m0 8h8m-8 0H4"></path></svg>
+					</div>
 				</div>
 			</div>
 
-			<div>
-				
-				<p class="border-2  bg-[#303030] border-[#303030] w-[750px] h-[70px] p-5 font-[arial] text-2xl">Berapa biaya berlangganan Netflix?</p>
-			</div>
+			
 
-			<div>
-				<p class="border-2  bg-[#303030] border-[#303030] w-[750px] h-[70px] p-5 font-[arial] text-2xl">Di mana saya bisa menonton?</p>
-				
-			</div>
 
-			<div>
-				
-				<p class="border-2  bg-[#303030] border-[#303030] w-[750px] h-[70px] p-5 font-[arial] text-2xl">Bagaimana cara membatalkannya?</p>
-			</div>
 
-			<div>
-				<p class="border-2  bg-[#303030] border-[#303030] w-[750px] h-[70px] p-5 font-[arial] text-2xl">Apa yang bisa ditonton di Netflix?</p>
-				
-			</div>
 
-			<div>
-				
-				<p class="border-2  bg-[#303030] border-[#303030] w-[750px] h-[70px] p-5 font-[arial] text-2xl">Apakah Netflix sesuai bagi anak-anak?</p>
-			</div>
-			</div>
+
 
 
 			</section>
 			
+			<section class="text-white text-center font-[arial] mt-20">
+
+				<p class="text-lg p-3">Siap menonton? Masukkan email untuk membuat atau memulai lagi keanggotaanmu.</p>
+
+				<section class="flex flex-row place-content-center mb-20">
+					
+					<input type="text" placeholder="Alamat E-mail" class="w-[400px] h-[55px]">	
+					<button type="submit" class="bg-red-600 w-[100px] h-[55px] text-white font-[arial]">Mulai ></button>
+				</section>
+				
+			</section>
 			
 			</section>
 
-			<div class="bg-black h-[426px] ">6</div>
+			<section class="bg-black h-[426px] px-40 pt-[70px] pl-20 text-white">
+					<div class="mb-8">
+						<p>Ada pertanyaan? Hubungi <a class="hover:underline" href="#">007-803-321-2130</a></p>
+					</div>
+					<div class="grid grid-cols-4 grid-rows-4 gap-4">
+						<a class="hover:underline" href="#">FAQ </a>
+						<a class="hover:underline" href="#">Help Center</a>
+						<a class="hover:underline" href="#">Account</a>
+						<a class="hover:underline" href="#">Media Center</a>
+						<a class="hover:underline" href="#">Investor Relations</a>
+						<a class="hover:underline" href="#">Jobs</a>
+						<a class="hover:underline" href="#">Redeem Gift Cards</a>
+						<a class="hover:underline" href="#">Buy Gift Cards</a>
+						<a class="hover:underline" href="#">Ways to Watch</a>
+						<a class="hover:underline" href="#">Terms of Use</a>
+						<a class="hover:underline" href="#">Privacy</a>
+						<a class="hover:underline" href="#">Cookie Preferences</a>
+						<a class="hover:underline" href="#">Corporate Information</a>
+						<a class="hover:underline" href="#">Contact Us</a>
+						<a class="hover:underline" href="#">Speed Test</a>
+						<a class="hover:underline" href="#">Legal Notices</a>
+						<a class="hover:underline" href="#">Only on Netflix</a>
+					</div>
+					<div class="pt-5 ">
+						<select name="" id="" class="py-1 border-gray-700 bg-black">
+							<option value="">English</option>
+							<option value="">Indonesia</option>
+						</select>
+					</div>
+					<div class="mt-5">
+						<p>Netflix Indonesia</p>
+					</div>
+				</section>
+			
 		</div>
 	</div>
 </template>
